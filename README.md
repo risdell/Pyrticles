@@ -30,7 +30,7 @@ library(reticulate)
  - To add python script, click wherever you want to add code, then press CTRL+ALT+i to insert a code chunk
  - Within the brackets, change it from "{r}" to "{python}"
  - Enter your python code. You can have results display directly from the chunk (e.g. `print(d)`)
- - For inline code, you still have to call on the R environment. So if you have an object `d`, to call it inline, you would have to type `r py$d` where `py$d` is the object. That also means that you can apply any r functions to that object. For example, round the output to two digits `r round(py$d, digits = 2)`.
+ - For inline code, you still have to call on the R environment. So if you have an object `d`, to call it inline, you would have to type \`r py$d\` where \`py$d\` is the object. That also means that you can apply any r functions to that object. For example, round the output to two digits \`r round(py$d, digits = 2)\`.
  
 ## Example
 The example for this can be found in the "Test" directory.
